@@ -1,0 +1,26 @@
+db/
+incremental_db/
+simulation/
+output_files/
+simulation/
+
+# Verilator object directory
+obj_dir/
+# Makefile output
+obj/
+
+compare_output
+nes_to_dat
+reference/
+memory_contents.dat
+memory_contents.ram
+
+# My icarus folder
+icarus/
+
+# I think these are just log files
+*.rpt
+# Ignore backup files
+*.bak
+# Ignore individual workspace
+*.qws

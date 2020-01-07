@@ -1,0 +1,16 @@
+	component final_project_soc is
+		port (
+			clk_clk            : in  std_logic                     := 'X';             -- clk
+			nes_clk_clk        : out std_logic;                                        -- clk
+			plll_locked_export : out std_logic;                                        -- export
+			reset_reset_n      : in  std_logic                     := 'X';             -- reset_n
+			sdram_clk_clk      : out std_logic;                                        -- clk
+			slave_read         : in  std_logic                     := 'X';             -- read
+			slave_write        : in  std_logic                     := 'X';             -- write
+			slave_address      : in  std_logic_vector(1 downto 0)  := (others => 'X'); -- address
+			slave_readdata     : out std_logic_vector(31 downto 0);                    -- readdata
+			slave_writedata    : in  std_logic_vector(31 downto 0) := (others => 'X'); -- writedata
+			vga_clk_clk        : out std_logic                                         -- clk
+		);
+	end component final_project_soc;
+

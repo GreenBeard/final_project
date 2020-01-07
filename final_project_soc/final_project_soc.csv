@@ -1,0 +1,22 @@
+# system info final_project_soc on 2019.12.05.23:23:19
+system_info:
+name,value
+DEVICE,EP4CE115F29C7
+DEVICE_FAMILY,Cyclone IV E
+GENERATION_ID,1575616928
+#
+#
+# Files generated for final_project_soc on 2019.12.05.23:23:19
+files:
+filepath,kind,attributes,module,is_top
+simulation/final_project_soc.v,VERILOG,,final_project_soc,true
+simulation/submodules/final_project_soc_sdram_pll.vo,VERILOG,,final_project_soc_sdram_pll,false
+simulation/submodules/altera_reset_controller.v,VERILOG,,altera_reset_controller,false
+simulation/submodules/altera_reset_synchronizer.v,VERILOG,,altera_reset_controller,false
+simulation/submodules/altera_reset_controller.sdc,SDC,,altera_reset_controller,false
+#
+# Map from instance-path to kind of module
+instances:
+instancePath,module
+final_project_soc.sdram_pll,final_project_soc_sdram_pll
+final_project_soc.rst_controller,altera_reset_controller
